@@ -3,28 +3,28 @@
 
 
 # 初始化git远程仓库
-xiapeijindeMac-mini:mse xiapeijin$ mkdir git-cmd-test
-xiapeijindeMac-mini:mse xiapeijin$ cd git-cmd-test/
-xiapeijindeMac-mini:git-cmd-test xiapeijin$ ls
-xiapeijindeMac-mini:git-cmd-test xiapeijin$ git init
-Initialized empty Git repository in /Users/xiapeijin/work/mse/git-cmd-test/.git/
-xiapeijindeMac-mini:git-cmd-test xiapeijin$ ls
-xiapeijindeMac-mini:git-cmd-test xiapeijin$ echo "# fittest" >> README.md
-xiapeijindeMac-mini:git-cmd-test xiapeijin$ git add README.md 
-xiapeijindeMac-mini:git-cmd-test xiapeijin$ git commit -m "first commit"
-[master (root-commit) 5072590] first commit
- 1 file changed, 1 insertion(+)
- create mode 100644 README.md
-xiapeijindeMac-mini:git-cmd-test xiapeijin$ git remote add origin https://github.com/xiapeijin/fittest.git
-xiapeijindeMac-mini:git-cmd-test xiapeijin$ git push -u origin master
-Username for 'https://github.com': xiapeijin@hotmail.com
-Password for 'https://xiapeijin@hotmail.com@github.com': 
-Counting objects: 3, done.
-Writing objects: 100% (3/3), 217 bytes | 0 bytes/s, done.
-Total 3 (delta 0), reused 0 (delta 0)
-To https://github.com/xiapeijin/fittest.git
- * [new branch]      master -> master
-Branch master set up to track remote branch master from origin.
+    xiapeijindeMac-mini:mse xiapeijin$ mkdir git-cmd-test
+    xiapeijindeMac-mini:mse xiapeijin$ cd git-cmd-test/
+    xiapeijindeMac-mini:git-cmd-test xiapeijin$ ls
+    xiapeijindeMac-mini:git-cmd-test xiapeijin$ git init
+    Initialized empty Git repository in /Users/xiapeijin/work/mse/git-cmd-test/.git/
+    xiapeijindeMac-mini:git-cmd-test xiapeijin$ ls
+    xiapeijindeMac-mini:git-cmd-test xiapeijin$ echo "# fittest" >> README.md
+    xiapeijindeMac-mini:git-cmd-test xiapeijin$ git add README.md 
+    xiapeijindeMac-mini:git-cmd-test xiapeijin$ git commit -m "first commit"
+    [master (root-commit) 5072590] first commit
+     1 file changed, 1 insertion(+)
+     create mode 100644 README.md
+    xiapeijindeMac-mini:git-cmd-test xiapeijin$ git remote add origin https://github.com/xiapeijin/fittest.git
+    xiapeijindeMac-mini:git-cmd-test xiapeijin$ git push -u origin master
+    Username for 'https://github.com': xiapeijin@hotmail.com
+    Password for 'https://xiapeijin@hotmail.com@github.com': 
+    Counting objects: 3, done.
+    Writing objects: 100% (3/3), 217 bytes | 0 bytes/s, done.
+    Total 3 (delta 0), reused 0 (delta 0)
+    To https://github.com/xiapeijin/fittest.git
+     * [new branch]      master -> master
+    Branch master set up to track remote branch master from origin.
 # 确认本地仓库以及远程仓库
 xiapeijindeMac-mini:git-cmd-test xiapeijin$ git branch
 * master
