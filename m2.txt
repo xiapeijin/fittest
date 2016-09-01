@@ -1,2 +1,16 @@
+m2
+m2 merge
 m22
 m222222
+m2
+add m
+m2 merge
+push any test2
+m2
+add m
+merge rebase
+push any test2
+m2------
+v1:1
+m2------
+
